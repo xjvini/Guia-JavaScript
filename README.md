@@ -51,7 +51,7 @@ Abaixo, uma breve apresentação dos pontos fortes e fracos do uso do JavaScript
 
 ## Exemplos
 
-Em anexo, há uma pasta chamada `exemplos/` com códigos que podem ser utilizados para estudo. A ideia não é ser complexo, mas mostrar a sintaxe básica do conteúdo.
+Em anexo, há uma pasta chamada `Exemplos/` com códigos que podem ser utilizados para estudo. A ideia não é ser complexo, mas mostrar a sintaxe básica do conteúdo.
 
 Arquivos:
 
