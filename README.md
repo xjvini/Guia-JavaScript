@@ -67,4 +67,4 @@ Com o **Node.js** instalado, abra o terminal na pasta e digite:
 ## Grupo
 
 * José Vinícius
-* 
+* José Rodrigo Araujo Limeira
