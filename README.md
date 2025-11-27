@@ -1,4 +1,4 @@
-# Guia JavaScript - UABJ
+# JavaScript - UABJ
 
 Este projeto faz parte da 2ªVA de IEC e foi criado para guiar estudantes a respeito do JavaScript.
 
