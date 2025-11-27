@@ -37,7 +37,7 @@ O JS está em quase tudo. As principais áreas são:
 
 ---
 
-## Vantagens e Desvantagens
+## Vantagens e desvantagens
 
 Abaixo, uma breve apresentação dos pontos fortes e fracos do uso do JavaScript:
 
