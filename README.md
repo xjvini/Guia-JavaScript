@@ -11,13 +11,13 @@ O JavaScript é uma linguagem de programação que atua no comportamento de pág
 
 Para entender o JavaScript, também deve-se compreender onde ele está inserido. Imagine a construção de uma casa:
 
-* **1. HTML (A Estrutura):**
+* **1. HTML:**
     Significa *HyperText Markup Language*. Define a configuração de textos. Por exemplo, o HTML indica onde o título ou um parágrafo deve estar.
 
-* **2. CSS (O Estilo):**
+* **2. CSS:**
     Sigla para *Cascading Style Sheets*. Define o estilo dos textos de uma página. Por exemplo, a cor e qual fonte de texto será utilizada no título.
 
-* **3. JavaScript (O Comportamento):**
+* **3. JavaScript:**
     Ele adiciona comportamento e interatividade nas páginas web e aplicativos. Por exemplo, quando um carrocel de imagens gira ou um mapa que carrega ao arrastar o mouse. Além disso, também é utilizado em servidores com o ambiente Node.js.
 
 Basicamente:
