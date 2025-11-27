@@ -58,7 +58,7 @@ Arquivos:
 1.  **`hello_world.js`**: imprime "hello world".
 2.  **`bota_o_nome_aqui.js`**: fala o que ele faz.
 
-### 🛠 Como rodar os exemplos?
+### Como rodar
 Com o **Node.js** instalado, abra o terminal na pasta e digite:
 `node nome_do_arquivo.js`
 
