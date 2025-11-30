@@ -56,7 +56,7 @@ Em anexo, há uma pasta chamada `Exemplos/` com códigos que podem ser utilizado
 Arquivos:
 
 1.  **`hello_world.js`**: imprime "hello world".
-2.  **`bota_o_nome_aqui.js`**: fala o que ele faz.
+2.  **`Media_de_notas_escola.js`**: imprime a media de alunos em uma escola.
 
 ### Como rodar
 Com o **Node.js** instalado, abra o terminal na pasta e digite:
