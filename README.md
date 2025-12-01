@@ -48,8 +48,6 @@ Como a linguagem é dinâmica, o JS entende o tipo do dado com base no valor atr
 * **Array:** Uma lista de dados.
     * Ex: `const lista = ['Maçã', 'Banana', 'Uva'];`
 
----
-
 ### Estruturas de Controle
 Adicionam condições lógicas ao código, usando `if` e `else`.
 
@@ -59,7 +57,7 @@ Adicionam condições lógicas ao código, usando `if` e `else`.
 * `>` (Maior que) e `<` (Menor que)
 ---
 
-## Vantagens e desvantagens
+## Vantagens e Desvantagens
 
 Abaixo, uma breve apresentação dos pontos fortes e fracos do uso do JavaScript:
 
