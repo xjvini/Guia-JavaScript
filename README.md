@@ -48,6 +48,8 @@ Como a linguagem é dinâmica, o JS entende o tipo do dado com base no valor atr
 * **Array:** Uma lista de dados.
     * Ex: `const lista = ['Maçã', 'Banana', 'Uva'];`
 
+---
+
 ### Estruturas de Controle
 Adicionam condições lógicas ao código, usando `if` e `else`.
 
