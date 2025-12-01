@@ -5,36 +5,60 @@ Este projeto faz parte da 2ªVA de IEC e foi criado para guiar estudantes a resp
 ---
 
 ## O que é JavaScript?
-O JavaScript é uma linguagem de programação que atua no comportamento de páginas web. Por exemplo, quando uma página web apresenta informações interativas (como atualizações de conteúdo ou mapas/gráficos interativos).
+É uma linguagem de tipagem dinamica utilizada no desenvolvimento web moderno, presente em navegadores através de motores JavaScript (como o V8 do Chrome). Ele é responsável pela interatividade de páginas (como atualizações em tempo real e carrossel de imagens).
 
-### Sistema base de uma página web
+Além de rodar em navegadores, o JS também é usado na construção de servidores através do **node.js**, gerenciando a lógica do sistema e permitindo a criação de APIs.
 
-Para entender o JavaScript, também deve-se compreender onde ele está inserido. Imagine a construção de uma casa:
+Por exemplo, num sistema de página web:
 
-* **1. HTML:**
-    Significa *HyperText Markup Language*. Define a configuração de textos, imagens e vídeos. Por exemplo, o HTML indica onde o título ou um parágrafo deve estar.
-
-* **2. CSS:**
-    Sigla para *Cascading Style Sheets*. Define o estilo de textos, cores de fundo, posições e tamanhos em uma página. Por exemplo, a cor e qual fonte de texto será utilizada no título.
-
-* **3. JavaScript:**
-    Ele adiciona comportamento e interatividade nas páginas web e aplicativos. Por exemplo, quando um carrossel de imagens gira ou um mapa que carrega ao arrastar o mouse. Além disso, também é utilizado em servidores com o ambiente Node.js.
-
-Basicamente:
 * **HTML** é a estrutura.
 * **CSS** é o estilo.
 * **JavaScript** é o comportamento.
 
 ---
 
-## Usos
-O JS está em quase tudo. As principais áreas são:
+## Fundamentos da Linguagem
 
-* **Desenvolvimento Web (Front-end):** O JS roda direto no navegador (chrome, firefox, brave) e atua no comportamento interativo dos sites (como na captura de cliques, validação de formulários, animações, etc).
-* **Servidores** Através do ambiente *Node.js*, é possível criar APIs. Além disso, permite criar servidores robustos, acessar bancos de dados e gerenciar a lógica de segurança do sistema, competindo com linguagens como Java, Python e PHP. 
-* **Aplicações mobile** Permite a criação de aplicativos para mobile usando frameworks como React Native. Isso faz com que um código funcione em diferentes ambientes (como no Android e no IOS).
-* **Jogos:** Permite a criação de jogos 2D/3D que rodam direto no navegador.
+### 1. Variáveis
+São espaços na memória para guardar informações. As duas principais formas de declaração:
 
+| Declaração | Comportamento | Explicação |
+| :--- | :--- | :--- |
+| **`const`** | Valor constante | Ou seja, que não mudam (ex: configurações, fórmulas). |
+| **`let`** | Valor mutável | Ou seja, que serão alterados durante o código (ex: contadores, totalizadores). |
+
+> *Também há `var`, que não é indicada pois é uma declaração antiga com comportamentos que podem gerar erros.*
+
+### 2. Tipos de Dados
+Como a linguagem é dinâmica, o JS entende o tipo do dado com base no valor atribuído.
+
+#### Tipos Primitivos
+* **String:** Determina textos, entre aspas ou crases.
+    * Ex: `'Olá Mundo'`, `"Erro"`, `` `Total: ${valor}` ``
+* **Number:** Indica uso de números (inteiros ou não).
+    * Ex: `2025`, `10.5`, `-50`
+* **Boolean:** Lógica binária.
+    * Ex: `true`, `false`
+
+#### Tipos Vazios
+* **Undefined:** Indica que a variável existe, mas ainda não tem valor definido.
+* **Null:** Determina que a variável foi configurada como vazia pelo programador.
+
+#### Tipos Estruturais
+* **Objetos:** Agrupa dados relacionados em pares (chave: valor).
+    * Ex: `const usuario = { nome: 'Ana', idade: 30 };`
+* **Array:** Uma lista de dados.
+    * Ex: `const lista = ['Maçã', 'Banana', 'Uva'];`
+
+---
+
+### 3. Estruturas de Controle
+Adicionam condições lógicas ao código, usando `if` e `else`.
+
+**Operadores comuns:**
+* `===` (Igualdade: verifica valor e tipo)
+* `!==` (Diferente)
+* `>` (Maior que) e `<` (Menor que)
 ---
 
 ## Vantagens e desvantagens
@@ -56,7 +80,9 @@ Em anexo, há uma pasta chamada `Exemplos/` com códigos que podem ser utilizado
 Arquivos:
 
 1.  **`hello_world.js`**: imprime "hello world".
-2.  **`Media_de_notas_escola.js`**: imprime a media de alunos em uma escola.
+2.  **`servidor.js`**: configura um servidor.
+3.  **`loja.js`**: retorna o custo total de uma lista de compras.
+4.  **`Media_de_notas_escola.js`**: imprime a media de alunos em uma escola.
 
 ### Como rodar
 Com o **Node.js** instalado, abra o terminal na pasta e digite:
