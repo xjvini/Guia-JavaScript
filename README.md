@@ -17,10 +17,8 @@ Por exemplo, num sistema de página web:
 
 ---
 
-## Fundamentos da Linguagem
-
-### 1. Variáveis
-São espaços na memória para guardar informações. As duas principais formas de declaração:
+### Variáveis
+São espaços na memória para guardar informações. As duas principais formas de declaração são:
 
 | Declaração | Comportamento | Explicação |
 | :--- | :--- | :--- |
@@ -29,22 +27,22 @@ São espaços na memória para guardar informações. As duas principais formas 
 
 > *Também há `var`, que não é indicada pois é uma declaração antiga com comportamentos que podem gerar erros.*
 
-### 2. Tipos de Dados
+### Tipos de Dados
 Como a linguagem é dinâmica, o JS entende o tipo do dado com base no valor atribuído.
 
-#### Tipos Primitivos
+#### I. Primitivos
 * **String:** Determina textos, entre aspas ou crases.
     * Ex: `'Olá Mundo'`, `"Erro"`, `` `Total: ${valor}` ``
-* **Number:** Indica uso de números (inteiros ou não).
+* **Number:** Indica o uso de números (inteiros ou não).
     * Ex: `2025`, `10.5`, `-50`
 * **Boolean:** Lógica binária.
     * Ex: `true`, `false`
 
-#### Tipos Vazios
+#### II. Vazios
 * **Undefined:** Indica que a variável existe, mas ainda não tem valor definido.
 * **Null:** Determina que a variável foi configurada como vazia pelo programador.
 
-#### Tipos Estruturais
+#### III. Estruturais
 * **Objetos:** Agrupa dados relacionados em pares (chave: valor).
     * Ex: `const usuario = { nome: 'Ana', idade: 30 };`
 * **Array:** Uma lista de dados.
@@ -52,7 +50,7 @@ Como a linguagem é dinâmica, o JS entende o tipo do dado com base no valor atr
 
 ---
 
-### 3. Estruturas de Controle
+### Estruturas de Controle
 Adicionam condições lógicas ao código, usando `if` e `else`.
 
 **Operadores comuns:**
