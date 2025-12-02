@@ -92,3 +92,5 @@ Com o **Node.js** instalado, abra o terminal na pasta e digite:
 
 * José Vinícius
 * José Rodrigo Araujo Limeira
+* Arthur Rodrigues Araujo de Melo
+* Enrico Rodrigues Araujo Castelo Branco 
