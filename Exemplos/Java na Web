@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo JS Web</title>
+</head>
+<body>
+
+  <h1>Exemplo simples de JavaScript no navegador</h1>
+  <button onclick="mostrarMensagem()">Clique aqui</button>
+
+  <script>
+    function mostrarMensagem() {
+      alert("Olá! Isso veio do JavaScript no navegador.");
+    }
+  </script>
+
+</body>
+</html>
+
+Como testar:
+
+Salve como index.html
+
+Abra no navegador
