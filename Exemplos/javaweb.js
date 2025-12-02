@@ -1,61 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard de Sensores</title>
+    <title>Relógio Digital</title>
     <style>
-        body { font-family: Arial; padding: 20px; background: #f2f2f2; }
-        #lista { background: white; padding: 15px; border-radius: 8px; }
-        .sensor { margin-bottom: 10px; padding: 10px; border-bottom: 1px solid #ddd; }
+        body {
+            font-family: Arial;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background: #f2f2f2;
+        }
+        #relogio {
+            font-size: 4rem;
+            background: white;
+            padding: 20px 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
     </style>
 </head>
 <body>
 
-<h1>📡 Dados de Sensores (via Node.js)</h1>
-
-<button onclick="carregarSensores()">Atualizar dados</button>
-
-<div id="lista"></div>
-
-<h2>Adicionar novo sensor</h2>
-<form onsubmit="enviarSensor(event)">
-    <input type="text" id="tipo" placeholder="Tipo do sensor" required>
-    <input type="number" id="valor" placeholder="Valor" required>
-    <button type="submit">Enviar</button>
-</form>
+<div id="relogio">00:00:00</div>
 
 <script>
-async function carregarSensores() {
-    const res = await fetch("http://localhost:3000/sensores");
-    const json = await res.json();
-
-    const lista = document.getElementById("lista");
-    lista.innerHTML = "";
-
-    json.dados.forEach(s => {
-        const div = document.createElement("div");
-        div.className = "sensor";
-        div.innerHTML = `<strong>${s.tipo}</strong>: ${s.valor}`;
-        lista.appendChild(div);
-    });
+function atualizarRelogio() {
+    const agora = new Date();
+    const h = String(agora.getHours()).padStart(2, "0");
+    const m = String(agora.getMinutes()).padStart(2, "0");
+    const s = String(agora.getSeconds()).padStart(2, "0");
+    
+    document.getElementById("relogio").textContent = `${h}:${m}:${s}`;
 }
 
-async function enviarSensor(e) {
-    e.preventDefault();
+// Atualiza a cada 1 segundo
+setInterval(atualizarRelogio, 1000);
 
-    const tipo = document.getElementById("tipo").value;
-    const valor = parseFloat(document.getElementById("valor").value);
-
-    const res = await fetch("http://localhost:3000/sensores", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ tipo, valor })
-    });
-
-    const json = await res.json();
-    alert(json.mensagem || "Erro ao enviar.");
-    carregarSensores();
-}
+// Chamada inicial
+atualizarRelogio();
 </script>
 
 </body>
