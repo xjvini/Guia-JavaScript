@@ -81,8 +81,8 @@ Arquivos:
 2.  **`servidor.js`**: configura um servidor.
 3.  **`loja.js`**: retorna o custo total de uma lista de compras.
 4.  **`Media_de_notas_escola.js`**: imprime a media de alunos em uma escola.
-5.  **`Lavanderia.js`**: Um sistema simples para uma lavanderia.
-6.  
+5.  **`Lavanderia.js`**:Um sistema simples para uma lavanderia.
+6.  **`pedido.js`**: simula o pagamento de uma loja virtual.
 
 ### Como rodar
 Com o **Node.js** instalado, abra o terminal na pasta e digite:
